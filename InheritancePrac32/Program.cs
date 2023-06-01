@@ -23,15 +23,9 @@ namespace InheritancePrac32
             {
                 item.Eat();
                 item.Sleep();
-                item.Bark();
-            }
-            foreach (var item in Cats)
-            {
-                item.Eat();
-                item.Sleep();
-                item.Meow();
-            }
 
+                //((Dog) item).Bark();
+            }
 
         }
     }
